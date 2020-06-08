@@ -187,7 +187,7 @@ br {
     position: absolute;
     width: 220px;
     height: 220px;
-    background-image: url(images/b1.png);
+    background-image: url(images/B1.png);
     background-repeat: no-repeat;
     background-size: contain;
     bottom: -804px;
@@ -198,7 +198,7 @@ br {
     position: absolute;
     width: 160px;
     height: 160px;
-    background-image: url(images/y1.png);
+    background-image: url(images/Y1.png);
     background-repeat: no-repeat;
     background-size: contain;
     bottom: -1028px;
@@ -209,7 +209,7 @@ br {
     position: absolute;
     width: 250px;
     height: 250px;
-    background-image: url(images/y2.png);
+    background-image: url(images/Y2.png);
     background-repeat: no-repeat;
     background-size: contain;
     bottom: -250px;
@@ -221,7 +221,7 @@ br {
     width: 180px;
     height: 180px;
     transform: rotate(135deg);
-    background-image: url(images/p1.png);
+    background-image: url(images/P1.png);
     background-repeat: no-repeat;
     background-size: contain;
     bottom: -1276px;
@@ -232,7 +232,7 @@ br {
     position: absolute;
     width: 200px;
     height: 200px;
-    background-image: url(images/p2.png);
+    background-image: url(images/P2.png);
     background-repeat: no-repeat;
     background-size: contain;
     bottom: -450px;
