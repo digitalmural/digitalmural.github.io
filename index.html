@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title>Digital Mural</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="assets/main.css" />
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="bg_cont">
+            <div class="explore">
+                <p>EXPLORE</p>
+                <P>YOUR</P>
+                <p>CREATIVITY</p>
+            </div>
+            <div class="trybutt" onclick="parent.open('https://www.instagram.com/ar/1166050910395635/?ch=YTkxZTYzYjUyY2RmOTg2YWY0ZWI2NzY2MTU1MjQ1YWM%3D')">
+                <p>START CREATING</p>
+            </div>
+        </div>
+
+        <div class="detail_cont">
+            <h1>DIGITAL MURAL AR</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Integer cursus tellus nulla, in cursus ex sagittis quis. 
+                Fusce egestas semper tortor vitae viverra. </p>
+        </div>
+
+        <div class="instruction_cont">
+            <h1>INSTRUCTION</h1>
+            <ol>
+                <li>Scan the QR code on the mural.</li>
+                <br/>
+                <li>Tap on the ‘Start Creating’ button.</li>
+                <br/>
+                <li>You will be automatically directed to your Instagram account.</li>
+                <br/>
+                <li>Point your camera to the mural.</li>
+                <br/>
+                <li>Different forms of shapes and text will be displayed on the screen.</li>
+                <br/>
+                <li>Be creative as you can be! All the shapes and text could be drag, resize, and rotate.</li>
+                <br/>
+                <li>You can capture your mural and directly post it on Instagram. Share your experience!</li>
+            </ol>
+        </div>
+
+        <div class="how_cont">
+            <h1>HOW TO:</h1>
+            <h5>Drag</h5>
+            <p>Tap once on the chosen object, if it’s selected the shape will slightly become bigger. When selected the object is already moveable.</p>
+            <br>
+            <h5>Resize</h5>
+            <p>Select the object and pinch the screen to resize it.</p>
+            <br>
+            <h5>Rotate</h5>
+            <p>Select the object, put two fingers above it, and start to rotate your fingers to the direction you like.</p>
+        </div>
+
+        <div class="trynow">
+            <p>NOW YOU ARE READY TO START CREATING!</p>
+        </div>
+        <div class="decob1"></div>
+        <div class="decoy1"></div>
+        <div class="decoy2"></div>
+        <div class="decop1"></div>
+        <div class="decop2"></div>
+        <div id="back">
+            <p>Back to top</p>
+        </div>
+    </body>
+</html>
+
+<script>
+    var btn = $('#back');
+
+    btn.on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({scrollTop:0}, '820');
+});
+</script>

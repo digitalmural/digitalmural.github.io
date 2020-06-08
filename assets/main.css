@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.bg_cont {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('images/bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 99;
+    overflow-x: hidden;
+}
+.explore {
+    width: 80%;
+    height: auto;
+    position: absolute;
+    bottom: 18%;
+    margin-left: 10%;
+}
+.explore p {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    line-height: 50px;
+    letter-spacing: 0.2em;
+    color: black;
+    text-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.trybutt {
+    width: 80%;
+    height: 50px;
+    top: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    background-color: white;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+    border-radius: 25px;
+}
+
+.trybutt p {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: 0.2em;
+}
+.detail_cont {
+    width: 100vw;
+    height: auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 9%;
+    z-index: 99;
+    overflow-x: hidden;
+}
+.detail_cont h1 {
+    margin-bottom: 3%;
+    margin-left: 9%;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+}
+.detail_cont p {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    font-family: Poppins;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+}
+.instruction_cont {
+    width: 100vw;
+    height: auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 9%;
+    z-index: 99;
+    overflow-x: hidden;
+}
+.instruction_cont h1{
+    margin-bottom: 3%;
+    margin-left: 9%;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+}
+.instruction_cont li {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    font-family: Poppins;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+}
+br {
+    line-height: 50%;
+}
+.how_cont {
+    width: 100vw;
+    height: auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 9%;
+    z-index: 99;
+    overflow-x: hidden;
+}
+.how_cont h1{
+    margin-bottom: 3%;
+    margin-left: 9%;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+}
+.how_cont h5 {
+    margin-left: 10%;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+}
+.how_cont p {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    font-family: Poppins;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+}
+.trynow {
+    width: 80vw;
+    height: auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    z-index: 99;
+    overflow-x: hidden;
+}
+.trynow p{
+    width: 80%;
+    height: auto;
+    margin-left: 9%;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    z-index: 99;
+}
+#back {
+    width: 100vw;
+    height: 60px;
+    background-color: #cecece;
+}
+#back p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 60px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: rgb(100, 100, 100);
+}
+.decob1 {
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    background-image: url(images/b1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: -804px;
+    left: -60px;
+    z-index: 1;
+}
+.decoy1 {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    background-image: url(images/y1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: -1028px;
+    right: 2px;
+    z-index: 1;
+}
+.decoy2 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-image: url(images/y2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: -250px;
+    left: -55px;
+    z-index: 1;
+}
+.decop1 {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    transform: rotate(135deg);
+    background-image: url(images/p1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: -1276px;
+    left: 140px;
+    z-index: 1;
+}
+.decop2 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-image: url(images/p2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: -450px;
+    right: 0;
+    z-index: 1;
+    overflow-x: hidden;
+}
+
